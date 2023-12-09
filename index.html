@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li ><a href="#" id="sign-up">Sign Up</a></li>
+          <li ><a href="#" id="sign-in">Sign In</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="form-container">
+      <form action="/" class="form">
+        <h3 class="sign-up-head">Sig<span>n</span> Up</h3>
+        <h3 class="sign-in-head">Sig<span>n</span> In</h3>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="input"
+          placeholder="name"
+        /><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="input"
+          placeholder="email"
+        /><br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          class="input"
+          placeholder="password"
+        />
+
+        <div class="action">
+          <button class="btn sign-up active">Sign Up</button>
+          <button class="btn sign-in">Sign In</button>
+        </div>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
